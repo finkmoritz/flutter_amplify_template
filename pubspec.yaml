@@ -39,8 +39,10 @@ dependencies:
   # The following adds AWS Amplify dependencies.
   # TODO remove any dependencies which you do not need
   amplify_analytics_pinpoint: ^1.1.0
+  amplify_api: ^1.1.0
   amplify_auth_cognito: ^1.1.0
   amplify_authenticator: ^1.1.0
+  amplify_datastore: ^1.1.0-supports-only-mobile
   amplify_flutter: ^1.1.0
 
 

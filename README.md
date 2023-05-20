@@ -33,6 +33,8 @@ These must all be added first:
 
 ```amplify add <category>```
 
+(for DataStore also execute ```amplify codegen models```)
+
 For each Amplify capability that you do **not** want to use, please remove the
 respective plugin from following files (look out for TODO comments):
 - [my_app.dart](lib/my_app.dart)
