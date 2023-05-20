@@ -1,6 +1,6 @@
-# flutter_amplify_template
+# Flutter Amplify Template
 
-A new Flutter project.
+This is a Flutter app template with AWS Amplify integration.
 
 ## Getting Started
 
