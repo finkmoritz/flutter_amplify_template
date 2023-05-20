@@ -44,6 +44,7 @@ dependencies:
   amplify_authenticator: ^1.1.0
   amplify_datastore: ^1.1.0-supports-only-mobile
   amplify_flutter: ^1.1.0
+  amplify_storage_s3: ^1.1.0
 
 
 dev_dependencies:

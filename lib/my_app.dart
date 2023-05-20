@@ -1,11 +1,14 @@
+// TODO remove unused Amplify dependencies:
 import 'package:amplify_analytics_pinpoint/amplify_analytics_pinpoint.dart';
 import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
 import 'package:amplify_authenticator/amplify_authenticator.dart';
 import 'package:amplify_datastore/amplify_datastore.dart';
 import 'package:amplify_flutter/amplify_flutter.dart';
+import 'package:amplify_storage_s3/amplify_storage_s3.dart';
+
 import 'package:flutter/material.dart';
 
-import 'models/ModelProvider.dart';
+import 'models/ModelProvider.dart'; // TODO remove if not used
 import 'pages/my_home_page.dart';
 
 import 'amplifyconfiguration.dart';
@@ -31,7 +34,8 @@ class _MyAppState extends State<MyApp> {
       await Amplify.addPlugins([
         AmplifyAnalyticsPinpoint(),
         AmplifyAuthCognito(),
-        AmplifyDataStore(modelProvider: ModelProvider.instance)
+        AmplifyDataStore(modelProvider: ModelProvider.instance),
+        AmplifyStorageS3(),
       ]);
 
       // call Amplify.configure to use the initialized categories in your app
