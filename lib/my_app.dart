@@ -1,3 +1,4 @@
+import 'package:amplify_analytics_pinpoint/amplify_analytics_pinpoint.dart';
 import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
 import 'package:amplify_authenticator/amplify_authenticator.dart';
 import 'package:amplify_flutter/amplify_flutter.dart';
@@ -26,6 +27,7 @@ class _MyAppState extends State<MyApp> {
     try {
       // TODO remove plugins for categories which you do not need:
       await Amplify.addPlugins([
+        AmplifyAnalyticsPinpoint(),
         AmplifyAuthCognito(),
       ]);
 

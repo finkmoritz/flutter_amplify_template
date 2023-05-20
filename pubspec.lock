@@ -2,7 +2,7 @@
 # See https://dart.dev/tools/pub/glossary#lockfile
 packages:
   amplify_analytics_pinpoint:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: amplify_analytics_pinpoint
       sha256: "80481dbbb10a4cd8b8a80531df3f208c91f98910abd20c4e4bf0c2a744ec3dac"
